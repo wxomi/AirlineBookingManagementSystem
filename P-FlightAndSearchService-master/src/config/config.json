@@ -1,0 +1,46 @@
+{
+      "development": {
+        "dialect": "postgres",
+      "host": "dpg-cgor35orddl9mmsr1230-a.oregon-postgres.render.com",
+      "port": "5432",
+      "database": "flights_search_db",
+      "username": "wxomi",
+      "password": "2pJiAEppODtid1WWOxkS9QnPZBGCyWK8",
+      "dialectOptions": {
+        "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+        }
+      }
+      },
+          "test": {
+            "dialect": "postgres",
+          "host": "dpg-cgor35orddl9mmsr1230-a.oregon-postgres.render.com",
+          "port": "5432",
+          "database": "flights_search_db",
+          "username": "wxomi",
+          "password": "2pJiAEppODtid1WWOxkS9QnPZBGCyWK8",
+          "dialectOptions": {
+            "ssl": {
+              "require": true,
+              "rejectUnauthorized": false
+            }
+          }
+          },
+          "production": {
+            "dialect": "postgres",
+            "host": "dpg-cgor35orddl9mmsr1230-a.oregon-postgres.render.com",
+            "port": "5432",
+            "database": "flights_search_db",
+            "username": "wxomi",
+            "password": "2pJiAEppODtid1WWOxkS9QnPZBGCyWK8",
+            "dialectOptions": {
+              "ssl": {
+                "require": true,
+                "rejectUnauthorized": false
+              }
+            }
+          }
+}
+
+        
